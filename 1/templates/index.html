@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="cn">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>GameXG 工具</h1>
+写了个生成字符编码的脚本，想放到网上方便使用，将这点功能专门部署到VPS上挺麻烦，最近 SAE 发邮件就想起来了SAE，干脆部署到SAE上完了。
+
+<h2>查询字符编码(alt+数字)</h2>
+<form name="input" action="." method="post">
+内容: <br/>
+<textarea  name="text"  rows="10" cols="30"/>
+<input type="submit" value="Submit" />
+</form>
+{% if bm %}
+结果：<br/>
+<textarea  name="text"  rows="10" cols="30">
+    {{ bm }}}
+</textarea>
+{% endif %}
+
+
+
+</body>
+</html>
